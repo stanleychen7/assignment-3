@@ -4,6 +4,7 @@ import Home from './components/Home';
 import UserProfile from './components/UserProfile';
 import Login from './components/Login';
 import Credits from './components/Credits';
+import Debits from './components/Debits';
 
 class App extends Component {
   constructor() {
@@ -61,6 +62,7 @@ class App extends Component {
           <Route path="/userProfile" element={<UserProfile currentUser={this.state.currentUser} />} />
           <Route path="/login" element={<Login handleLogin={this.handleLogin} />} />
           <Route path="/credits" element={<Credits credits={this.state.credits} addCredit={this.addCredit} />} />
+          <Route path="/debits" element={<Debits debits={this.state.debits} addDebit={this.addDebit} />} />
         </Routes>
       </Router>
     );

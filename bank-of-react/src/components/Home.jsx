@@ -17,6 +17,10 @@ class Home extends Component {
         <Link to="/credits">
           <button>Add Credit</button>
         </Link>
+        <br/>
+        <Link to="/debits">
+          <button>Add Debit</button>
+        </Link>
       </div>
     );
   }
