@@ -13,6 +13,10 @@ class Home extends Component {
         <Link to="/login">Login</Link>
         <br />
         <Link to="/userProfile">Go to User Profile</Link>
+        <br/>
+        <Link to="/credits">
+          <button>Add Credit</button>
+        </Link>
       </div>
     );
   }
