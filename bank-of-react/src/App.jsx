@@ -56,7 +56,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename='/assignment-3'>
         <Routes>
           <Route path="/" element={<Home accountBalance={this.state.accountBalance} />} />
           <Route path="/userProfile" element={<UserProfile currentUser={this.state.currentUser} />} />
